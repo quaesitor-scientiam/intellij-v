@@ -27,4 +27,6 @@ class ParserTest : ParserTestBase("parser", "v", VlangParserDefinition()) {
     fun `test sql`() = doTest(true)
     fun `test static function`() = doTest(true)
     fun `test enum keyword fields`() = doTest(true)
+    fun `test struct keyword fields`() = doTest(true)
+    fun `test keyword as function name`() = doTest(true)
 }
